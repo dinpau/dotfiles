@@ -1,0 +1,63 @@
+!-------------------------------------------------------------
+! Key Bindings
+!-------------------------------------------------------------
+xterm.vt100.translations: #override \n\
+    Ctrl Shift <Key>V: insert-selection(CLIPBOARD) \n\
+    <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFERS)
+!--------------------------------------------------------------
+! General settings
+!--------------------------------------------------------------
+! xterm*highlightselection: true
+xterm*termName: xterm-256color
+xterm*selectToClipboad: true
+xterm*faceName: Dejavu Sans Mono
+xterm*faceSize: 11
+
+!--------------------------------------------------------------
+! Colorscheme: desert
+!--------------------------------------------------------------
+xterm*foreground:  #ffffff
+xterm*background:  #333333
+
+! xterm*cursorColor: #00ff00
+!
+! Black
+xterm*color0:      #4d4d4d
+xterm*color8:      #555555
+!
+! Red
+xterm*color1:      #cd5c5c
+xterm*color9:      #ff5555
+!
+! Green
+xterm*color2:      #98fb98
+xterm*color10:     #55ff55
+!
+! Yellow
+xterm*color3:     #ffff55
+xterm*color11:    #f0e68c
+!
+! Blue
+xterm*color4:      #ffd700
+xterm*color12:     #87ceff
+!
+! Magenta
+xterm*color5:      #ffdead
+xterm*color13:     #ff55ff
+!
+! Cyan
+xterm*color6:      #ffa0a0
+xterm*color14:     #bdb76b
+!
+! White
+xterm*color7:      #dddddd
+xterm*color15:     #ffffff
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme: Desert
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #555555, #555555, #333333
+rofi.color-normal: argb:c3555555, #ffffff, #4d4d4d, #dddddd, #555555
+rofi.color-active: #555555, #87ceff, #4d4d4d, #87ceff, #555555
+rofi.color-urgent: #555555, #ff5555, #4d4d4d, #ff5555, #555555
