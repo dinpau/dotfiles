@@ -3,6 +3,9 @@
 # for examples
 
 
+
+PATH=$HOME/npm-global/bin:$PATH
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;

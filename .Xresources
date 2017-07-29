@@ -3,7 +3,10 @@
 !-------------------------------------------------------------
 xterm.vt100.translations: #override \n\
     Ctrl Shift <Key>V: insert-selection(CLIPBOARD) \n\
-    <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFERS)
+    <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFERS) \n\
+    Ctrl <Key>K: scroll-back(1,line) \n\
+    Ctrl <Key>J: scroll-forw(1,line) \n\
+
 !--------------------------------------------------------------
 ! General settings
 !--------------------------------------------------------------
