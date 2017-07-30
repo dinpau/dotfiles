@@ -82,7 +82,7 @@ hi Statement	ctermfg=11 cterm=bold
 hi PreProc	ctermfg=1
 hi Type		ctermfg=14 cterm=bold
 hi Function 	ctermfg=2
-hi Special	ctermfg=15
+hi Special	ctermfg=5
 " "hi Underlined
 hi Ignore	ctermfg=8
 " "hi Error
