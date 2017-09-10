@@ -7,8 +7,7 @@ import os
 
 dir_path=os.path.dirname(os.path.realpath(__file__))
 
-MAX_TITLE_LENGTH = 50
-
+MAX_TITLE_LENGTH = 45
     
 
 def get_title():
