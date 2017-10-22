@@ -120,3 +120,22 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
+# some more handy aliases
+## get rid of command not found ##
+alias cd..='cd ..'
+ 
+## a quick way to get out of current directory ##
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+
+# reboot / halt / poweroff
+alias reboot='sudo /sbin/reboot'
+alias poweroff='sudo /sbin/poweroff'
+alias halt='sudo /sbin/halt'
+alias shutdown='sudo /sbin/shutdown'
+

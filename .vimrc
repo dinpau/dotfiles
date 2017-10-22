@@ -13,6 +13,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 " Python support
 Plugin 'davidhalter/jedi-vim'
+" Clevertab Accept Autocompletion
+Plugin 'neitanod/vim-clevertab'
 " Git 
 Plugin 'tpope/vim-fugitive'
 " Typescript support
@@ -52,6 +54,9 @@ inoremap <expr> <C-Space> pumvisible() \|\| &omnifunc == '' ?
             \ "\"\\<lt>c-n>\\<lt>c-p>\\<lt>c-n>\" :" .
             \ "\" \\<lt>bs>\\<lt>C-n>\"\<CR>"
 imap <C-@> <C-Space>
+
+" Clevertab configuration pick omnicompletion ultinsips chain
+call CleverTab#OmniFirst()
 
 " Configure autocompletion
 :set completeopt=longest,menuone "Pick lcc
