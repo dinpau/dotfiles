@@ -6,6 +6,7 @@
 [remote "origin"]
 	url = https://github.com/dinpau/dotfiles.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
+    push = HEAD
 [user]
 	name = dinpau
 	email = 30399676+dinpau@users.noreply.github.com
