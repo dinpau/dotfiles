@@ -4,8 +4,8 @@
 xterm.vt100.translations: #override \n\
     Ctrl Shift <Key>V: insert-selection(CLIPBOARD) \n\
     <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFERS) \n\
-    Ctrl <Key>K: scroll-back(1,line) \n\
-    Ctrl <Key>J: scroll-forw(1,line) \n\
+    Alt <Key>K: scroll-back(1,line) \n\
+    Alt <Key>J: scroll-forw(1,line) \n\
 
 !--------------------------------------------------------------
 ! General settings
@@ -37,23 +37,23 @@ xterm*color2:      #98fb98
 xterm*color10:     #55ff55
 !
 ! Yellow
-xterm*color3:     #ffff55
+xterm*color3:     #ffd700
 xterm*color11:    #f0e68c
 !
 ! Blue
-xterm*color4:      #ffd700
+xterm*color4:      #4169E1
 xterm*color12:     #87ceff
 !
 ! Magenta
 xterm*color5:      #ffdead
-xterm*color13:     #ff55ff
+xterm*color13:     #8B2252
 !
 ! Cyan
 xterm*color6:      #ffa0a0
 xterm*color14:     #bdb76b
 !
 ! White
-xterm*color7:      #dddddd
+xterm*color7:      #68535A
 xterm*color15:     #ffffff
 
 ! ------------------------------------------------------------------------------

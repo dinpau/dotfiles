@@ -10,9 +10,6 @@
 [user]
 	name = dinpau
 	email = 30399676+dinpau@users.noreply.github.com
-[branch "master"]
-	remote = origin
-	merge = refs/heads/master
 
 
 # alias {{{

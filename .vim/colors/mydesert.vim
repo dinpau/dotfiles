@@ -25,12 +25,12 @@ hi Normal	ctermfg=15
 
 "  highlight groups
 "  hi Cursor	guibg=khaki guifg=slategrey
-"  "hi CursorIM
-"  "hi Directory
-"  "hi DiffAdd
-"  "hi DiffChange
-"  "hi DiffDelete
-"  "hi DiffText
+"  hi CursorIM
+"  hi Directory
+   hi DiffAdd   ctermbg=4
+   hi DiffChange    ctermbg=7
+   hi DiffDelete    ctermbg=13 ctermfg=15
+   hi DiffText      ctermbg=9
 "  "hi ErrorMsg
 "  hi VertSplit	guibg=#c2bfa5 guifg=grey50 gui=none
 "  hi Folded	guibg=grey30 guifg=gold
@@ -53,7 +53,6 @@ hi Normal	ctermfg=15
 "  "hi Menu
 "  "hi Scrollbar
 "  "hi Tooltip
- 
 
 
 " Test colors for Colorhighlight Plugin
@@ -86,7 +85,7 @@ hi Special	ctermfg=5
 " "hi Underlined
 hi Ignore	ctermfg=8
 " "hi Error
-hi Todo		ctermfg=4 ctermbg=0 cterm=NONE
+hi Todo		ctermfg=3 ctermbg=0 cterm=NONE
 
 
 
