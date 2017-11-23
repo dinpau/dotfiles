@@ -51,6 +51,8 @@ nnoremap <leader>gpl :Dispatch! git pull<CR>
 " CtrlP Options use gitignore to exclude files
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
+let g:ctrlp_working_path_mode = 'ra'
+
 " Disable linewrap by default
 set nowrap
 
