@@ -31,6 +31,8 @@ hi Normal	ctermfg=15
    hi DiffChange    ctermbg=7
    hi DiffDelete    ctermbg=13 ctermfg=15
    hi DiffText      ctermbg=9
+   hi Pmenu         ctermbg=12
+   hi PmenuSel      ctermbg=5
 "  "hi ErrorMsg
 "  hi VertSplit	guibg=#c2bfa5 guifg=grey50 gui=none
 "  hi Folded	guibg=grey30 guifg=gold
