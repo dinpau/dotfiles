@@ -31,6 +31,9 @@ Plugin 'jvanja/vim-bootstrap4-snippets'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+" Remap local leader to space
+let mapleader=" "
+
 " fugitive git bindings
 nnoremap <leader>ga :Git add %:p<CR><CR>
 nnoremap <leader>gs :Gstatus<CR>
@@ -45,8 +48,8 @@ nnoremap <leader>gp :Ggrep<Space>
 nnoremap <leader>gm :Gmove<Space>
 nnoremap <leader>gb :Git branch<Space>
 nnoremap <leader>go :Git checkout<Space>
-nnoremap <leader>gps :Dispatch! git push<CR>
-nnoremap <leader>gpl :Dispatch! git pull<CR>
+" nnoremap <leader>gps :Dispatch! git push<CR>
+" nnoremap <leader>gpl :Dispatch! git pull<CR>
 
 " CtrlP Options use gitignore to exclude files
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
@@ -56,8 +59,6 @@ let g:ctrlp_working_path_mode = 'ra'
 " Disable linewrap by default
 set nowrap
 
-" Remap local leader to space
-let mapleader=" "
 
 " Netrw Options and keybindings
 let g:netrw_banner = 0
